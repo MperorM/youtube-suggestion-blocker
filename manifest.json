@@ -1,0 +1,19 @@
+{
+  "manifest_version": 2,
+  "name": "Youtube block",
+  "version": "1.0",
+
+  "description": "Removes youtube suggestions",
+
+  "icons": {
+    "32": "Lurk.png"
+  },
+
+  "content_scripts": [
+    {
+      "matches": ["*://*.youtube.com/*"],
+      "js": ["youtubeblock.js"]
+    }
+  ]
+
+}
