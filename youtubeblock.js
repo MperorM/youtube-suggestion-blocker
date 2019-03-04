@@ -26,3 +26,9 @@ for (var i = 0; i < suggestions.length; i++) {
 function sleep(ms) {
   return new Promise(resolve => setTimeout(resolve, ms));
 }
+
+// waiting_time = sleep(2000);
+// waiting_time.then(function(){
+//     console.log(url.match(subreddit));
+//     console.log('HHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHhh')
+// });
