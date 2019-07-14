@@ -6,7 +6,7 @@
   "description": "Removes youtube suggestions",
 
   "icons": {
-    "96": "logo.png"
+    "48": "logo.png"
   },
 
   "content_scripts": [
